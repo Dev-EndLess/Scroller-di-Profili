@@ -77,12 +77,6 @@ function prossimoProfilo() {
     window.location.reload();
   }
 
-  // Volevo Scrivere cosi ma non funziona (Giustamente)
-
-  // if(profiloCorrente === undefined) {          
-  //   prossimoProfilo();
-  // }
-
   document.getElementById('profileDisplay').innerHTML =
   `<ul class="list-group">
     <li class="list-group-item"> Name: ${profiloCorrente.name} </li>
